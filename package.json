@@ -2,9 +2,16 @@
   "name": "@graylog/oxfmt-config",
   "version": "1.0.0",
   "description": "A shared oxfmt config for Graylog projects.",
+  "license": "MIT",
+  "author": "Graylog, Inc. <hello@graylog.com>",
+  "repository": "git@github.com:Graylog2/oxfmt-config.git",
+  "files": [
+    "index.ts"
+  ],
+  "type": "module",
   "main": "index.ts",
   "types": "index.ts",
-  "repository": "git@github.com:Graylog2/oxfmt-config.git",
-  "author": "Graylog, Inc. <hello@graylog.com>",
-  "license": "MIT"
+  "devDependencies": {
+    "oxfmt": "^0.47.0"
+  }
 }
