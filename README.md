@@ -6,7 +6,7 @@ Unlike Prettier, oxfmt does not support extending configurations from a package 
 
 ```ts
 import { defineConfig } from 'oxfmt';
-import config from '@graylog/oxfmt-config';
+import config from '@graylog/oxfmt-config' with { type: 'json' };
 
 export default defineConfig(config);
 ```
@@ -15,7 +15,7 @@ export default defineConfig(config);
 
 ```ts
 import { defineConfig } from 'oxfmt';
-import config from '@graylog/oxfmt-config';
+import config from '@graylog/oxfmt-config' with { type: 'json' };
 
 export default defineConfig({ ...config, printWidth: 100 });
 ```
