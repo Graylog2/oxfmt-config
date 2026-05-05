@@ -1,0 +1,10 @@
+{
+  "name": "@graylog/oxfmt-config",
+  "version": "1.0.0",
+  "description": "A shared oxfmt config for Graylog projects.",
+  "main": "index.ts",
+  "types": "index.ts",
+  "repository": "git@github.com:Graylog2/oxfmt-config.git",
+  "author": "Graylog, Inc. <hello@graylog.com>",
+  "license": "MIT"
+}
